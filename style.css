@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f5;
+    color: #263238;
+}
+
+header {
+    background-color: #174a3a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #21644d;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe082;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.hero {
+    background-color: #dff3e5;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.hero h2 {
+    color: #174a3a;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 200px;
+    text-align: center;
+    box-shadow: 0 2px 6px #cccccc;
+}
+
+.animal {
+    font-size: 60px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #218c60;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #145c3e;
+}
+
+.info {
+    background-color: white;
+    padding: 22px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #174a3a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+}
